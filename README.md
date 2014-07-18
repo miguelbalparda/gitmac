@@ -33,16 +33,16 @@ To prevent this, stop the script and do ```git checkout -b newbranch```
 
 If you see 
 
-```There is no tracking information for the current branch.
-Please specify which branch you want to merge with.
-See git-pull(1) for details
+	There is no tracking information for the current branch.
+	Please specify which branch you want to merge with.
+	See git-pull(1) for details
 
     git pull <remote> <branch>
 
-If you wish to set tracking information for this branch you can do so with:
+	If you wish to set tracking information for this branch you can do so with:
 
     git branch --set-upstream-to=origin/<branch> newbranch
 
-On branch newbranch
-nothing to commit, working directory clean```
+	On branch newbranch
+	nothing to commit, working directory clean
 do not freak out. It simply means you have not commited anything yet to the new branch and once you commit/push something, the error will go away.
