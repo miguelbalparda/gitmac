@@ -25,9 +25,9 @@ As a nice gesture, please dont kill the program in the middle of a commit/sync o
 
 If the branch is changed and it does not exist, an error will appear 
 
-```error: src refspec newbranch does not match any'```.
+	error: src refspec newbranch does not match any.
 
-```error: failed to push some refs to 'git@github.com:yourname/yourepo.git'```. 
+	error: failed to push some refs to 'git@github.com:yourname/yourepo.git'. 
 
 To prevent this, stop the script and do ```git checkout -b newbranch```
 
