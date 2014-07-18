@@ -1,0 +1,9 @@
+while [ true ]
+do
+	git pull
+	git add .
+	git commit -m "$1"
+	git push -u origin $2
+	printf "\n$(date): Waiting...\n"
+    sleep $3m
+done
