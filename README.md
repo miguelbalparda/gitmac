@@ -1,6 +1,8 @@
 GITMAC - Git for Designers
 ---------
 
+This tool aims to replace any sync/collaboration tool a designer use like DropBox or Box.com for a Git based one.
+
 Use: 
 It is assumed you have a working Git repository in your computer.
 
